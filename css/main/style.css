@@ -1,0 +1,48 @@
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.card.card:hover {
+  -webkit-box-shadow: 0 0 10px 0 grey;
+          box-shadow: 0 0 10px 0 grey;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.card .card-body {
+  text-align: left;
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.pull-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pull-right li {
+  padding-right: 10px;
+}
+
+.my-btn {
+  margin-top: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  text-align: end;
+}
+
+.entry-header img {
+  border-radius: 10px 10px 0 0;
+}
+
+.post:hover {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 0;
+          box-shadow: 0 0 10px 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+.card {
+    border: none;
+    border-radius: 15px;
+    &.card:hover{
+        box-shadow: 0 0 10px 0 grey;
+        transition: .1s;
+    }
+    .card-body{
+        text-align: left;
+    }
+    
+
+    img{
+        border-radius: 15px 15px 0 0;
+    }
+}
+.pull-right{
+    display: flex;
+    li{
+        padding-right: 10px;
+    }
+}
+.my-btn{
+    margin-top: 10px;
+    justify-content: end;
+    text-align: end;
+}
+.entry-header{
+    img{
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+.post:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+}
