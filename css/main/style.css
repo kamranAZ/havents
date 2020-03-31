@@ -45,4 +45,10 @@
   -webkit-box-shadow: 0 0 10px 0;
           box-shadow: 0 0 10px 0;
 }
+
+.entry-content {
+  background-color: white;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
 /*# sourceMappingURL=style.css.map */
